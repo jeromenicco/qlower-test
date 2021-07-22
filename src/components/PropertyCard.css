@@ -1,0 +1,89 @@
+.card-container {
+  height: 180px;
+  width: 100%;
+  /* background-color: blue; */
+  border-radius: 15px;
+  display: flex;
+  margin: 20px auto;
+  box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+}
+
+.img-container {
+  height: 100%;
+  min-width: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: yellow;
+}
+
+.infos-container {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(8, 18, 68);
+}
+
+
+
+.icons-modify-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.icons-container div {
+  margin-right: 10px;
+}
+
+.alert-icon {
+  color: #DCDCDC;
+}
+
+.transactions-icon {
+  background-color: #29C7C4;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.completude-icon {
+  background-color: #4CD964;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.modify-btn-inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modify-button p {
+  padding-right: 5px;
+}
+
+.modify-button {
+  color: #3F55C8;
+  background: transparent;
+  border: 1px solid rgba(63, 85, 200, 0.5);
+  padding: 1px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+

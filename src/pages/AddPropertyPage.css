@@ -1,0 +1,41 @@
+.property-page-container {
+  width: auto;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.info-help {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ECEEF9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: #29C7C4;
+}
+
+.info-help p {
+  color: #4054C8
+}
+
+.continue-btn {
+  float: right;
+  margin-top: 20px;
+  background-color: #6F7ED5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: 1s ease;
+  text-transform: uppercase;
+}
+
+.continue-btn:hover {
+  background-color: #2C3A8C;
+  cursor: pointer;
+}

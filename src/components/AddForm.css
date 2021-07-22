@@ -1,0 +1,49 @@
+.add-property-container {
+  /* background-color: red; */
+  width: auto;
+  
+  justify-content: center;
+  /* margin: 5%; */
+  /* border: 1px solid grey; */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item-container {
+  margin: 10px;
+}
+
+.form-item-container div {
+  width: 100%;
+}
+
+.horizontal-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.horizontal-items div {
+  width: 100%;
+}
+
+.continue-btn {
+  float: right;
+  margin-top: 20px;
+  background-color: #6F7ED5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  transition: 1s ease;
+  text-transform: uppercase;
+}

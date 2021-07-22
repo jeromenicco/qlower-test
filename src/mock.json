@@ -1,0 +1,28 @@
+{
+  "properties" : [
+    {
+      "type": "Maison",
+      "name": "Bright Delight",
+      "address": "2 avenue du soleil",
+      "additionalAddress": "",
+      "zip": "75012",
+      "city": "Paris"
+    },
+    {
+      "type": "Appartement",
+      "name": "Cosy Lodge",
+      "address": "10 rue cosette",
+      "additionalAddress": "",
+      "zip": "75020",
+      "city": "Paris"
+    },
+    {
+      "type": "Appartement",
+      "name": "Last Floor Paradise",
+      "address": "150 bis rue du paradis",
+      "additionalAddress": "",
+      "zip": "75018",
+      "city": "Paris"
+    }
+  ]
+}
