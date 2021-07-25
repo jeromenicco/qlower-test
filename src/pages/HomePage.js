@@ -33,14 +33,14 @@ const HomePage = () => {
       <div className='my-simulations-container' >
         <p className='title-simulations'>Mes simulations</p>
         <div className='simu-card-container'>
-          <PropertyCard title='T3 vide Qlower' />
+          <PropertyCard title='T3 vide Qlower' cardType='simulation' />
         </div>
       </div>
       {
         [...propertiesList].reverse().map((item, index) => {
           return (
             <div key={index}>
-              <PropertyCard title={item.name} item={item} propertiesList={propertiesList} />
+              <PropertyCard title={item.name} item={item} propertiesList={propertiesList} cardType='property' />
             </div>
           )
         })

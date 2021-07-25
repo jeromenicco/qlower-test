@@ -21,7 +21,7 @@ const propertiesSlice = createSlice({
   reducers: {
     propertiesReducer(state, action) {
       state.push(action.payload.value)
-    }
+    },
   }
 })
 
