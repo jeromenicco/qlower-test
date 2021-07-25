@@ -2,11 +2,10 @@
   width: auto;
   justify-content: center;
   padding: 20px;
-  
+  margin: auto 30%;
 }
 
 .info-help {
-  width: 100%;
   height: 40px;
   border-radius: 20px;
   background-color: #ECEEF9;

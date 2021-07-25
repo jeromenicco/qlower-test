@@ -1,6 +1,7 @@
 {
-  "properties" : [
+  "properties": [
     {
+      "id": "1",
       "type": "Maison",
       "name": "Bright Delight",
       "address": "2 avenue du soleil",
@@ -9,6 +10,7 @@
       "city": "Paris"
     },
     {
+      "id": "2",
       "type": "Appartement",
       "name": "Cosy Lodge",
       "address": "10 rue cosette",
@@ -17,12 +19,94 @@
       "city": "Paris"
     },
     {
+      "id": "3",
       "type": "Appartement",
       "name": "Last Floor Paradise",
       "address": "150 bis rue du paradis",
       "additionalAddress": "",
       "zip": "75018",
       "city": "Paris"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "",
+      "additionalAddress": "",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "uFSVv5w"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "",
+      "additionalAddress": "",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "qmUvhUz"
+    },
+    {
+      "type": "Appartement",
+      "name": "166 Local",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "plGhA4D"
+    },
+    {
+      "type": "Appartement",
+      "name": "",
+      "address": "",
+      "additionalAddress": "",
+      "zip": "",
+      "city": "",
+      "id": "JQK9vvb"
+    },
+    {
+      "type": "Appartement",
+      "name": "",
+      "address": "",
+      "additionalAddress": "",
+      "zip": "",
+      "city": "",
+      "id": "lBpxDAf"
+    },
+    {
+      "type": "Appartement",
+      "name": "",
+      "address": "",
+      "additionalAddress": "",
+      "zip": "",
+      "city": "",
+      "id": "Lqf39OU"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "8ywSKRj"
+    },
+    {
+      "type": "Appartement",
+      "name": "166 Local",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "jUTHrsi"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "V7O8O0Y"
     }
   ]
 }

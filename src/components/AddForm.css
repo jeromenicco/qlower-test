@@ -1,10 +1,7 @@
 .add-property-container {
-  /* background-color: red; */
   width: auto;
-  
+  position: relative;
   justify-content: center;
-  /* margin: 5%; */
-  /* border: 1px solid grey; */
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
@@ -36,9 +33,11 @@
   width: 100%;
 }
 
+.dummy-space {
+  width: 30px !important;
+}
+
 .continue-btn {
-  float: right;
-  margin-top: 20px;
   background-color: #6F7ED5;
   color: white;
   border: none;
@@ -46,4 +45,7 @@
   border-radius: 5px;
   transition: 1s ease;
   text-transform: uppercase;
+  position: absolute;
+  bottom: -50px;
+  right: 0px;
 }

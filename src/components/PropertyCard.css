@@ -1,13 +1,12 @@
 .card-container {
   height: 180px;
   width: 100%;
-  /* background-color: blue; */
   border-radius: 15px;
   display: flex;
   margin: 20px auto;
   box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
 }
 
 .img-container {
@@ -15,7 +14,15 @@
   min-width: 300px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: yellow;
+  background-image: url('../assets/propertyImg.png');
+}
+
+.img-simu-container {
+  height: 100%;
+  min-width: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url('../assets/simuImg.png');
 }
 
 .infos-container {
@@ -29,8 +36,6 @@
   color: rgb(8, 18, 68);
 }
 
-
-
 .icons-modify-container {
   display: flex;
   align-items: center;
@@ -43,7 +48,6 @@
   display: flex;
   align-items: center;
 }
-
 
 .icons-container div {
   margin-right: 10px;

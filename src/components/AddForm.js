@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './AddForm.css'
+import { useHistory } from "react-router-dom"
+import { postProperties, propertiesReducer } from '../redux/properties/propertiesSlice'
+import { useDispatch } from 'react-redux'
 import TextField from '@material-ui/core/TextField'
 import MenuItem from '@material-ui/core/MenuItem'
-import { useHistory } from "react-router-dom"
-import { useDispatch } from 'react-redux'
-import { addProperty } from '../redux/properties/propertiesSlice'
+import './AddForm.css'
 
 const propertyType = [
   {
@@ -24,38 +24,29 @@ const AddForm = () => {
     zip: '',
     city: '',
   })
-
-  const dispatch = useDispatch()
-
+  
   let history = useHistory()
+  const formRef = React.useRef()
+  const dispatch = useDispatch()
 
   const handleChange = (e) => {
     setValue({ ...value, [e.target.name]: e.target.value })
-    console.log('PROPERTY ->', value)
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // console.log(value)
-    // properties.unshift(JSON.stringify(value))
-    
-  }
-
-  const handleBackToHome = (e) => {
+  const addProperty = (e) => {
     e.preventDefault()
     history.push('/')
     if (value) {
-      dispatch(addProperty({
-        value
-      }))
+      dispatch(propertiesReducer({ value }))
+      postProperties(value)
     }
   }
-  
 
   return (
     <div className='add-property-container'>
       <form
-        onSubmit={handleSubmit}
+        ref={formRef}
+        onSubmit={addProperty}
         className='form-wrapper'
         autoComplete="off"
       >
@@ -67,6 +58,7 @@ const AddForm = () => {
             onChange={handleChange}
             variant='outlined'
             name='type'
+            required
           >
           {
             propertyType.map((type, index) => (
@@ -119,6 +111,7 @@ const AddForm = () => {
             required
             name='zip'
           />
+          <div className='dummy-space' />
           <TextField
             onChange={handleChange}
             defaultValue={value.city}
@@ -131,7 +124,7 @@ const AddForm = () => {
         </div>
         <button
           type='submit'
-          onClick={handleBackToHome}
+          onClick={() => formRef.current.reportValidity() && addProperty}
           className='continue-btn'
         >
           Continuer
