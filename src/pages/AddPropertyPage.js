@@ -8,10 +8,10 @@ const AddPropertyPage = () => {
     <div className='property-page-container'>
       <div className='form-info-container'>
         <h3>Détailler une propriété</h3>
-        <p>Renseignez votre bien en 5 minutes avec les doculents suivants</p>
+        <p>Renseignez votre bien en 5 minutes avec les documents suivants</p>
         <ul>
           <li>Bail de location en cours</li>
-          <li>Tableaux d'amortissements dres crédits associés</li>
+          <li>Tableaux d'amortissements des crédits associés</li>
         </ul>
       </div>
       <div className='info-help'>

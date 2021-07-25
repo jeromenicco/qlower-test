@@ -2,7 +2,7 @@
   width: auto;
   justify-content: center;
   padding: 20px;
-  margin: auto 30%;
+  margin: 50px 400px 50px 500px;
 }
 
 .info-help {
@@ -14,7 +14,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 15px;
   color: #29C7C4;
 }
 
@@ -41,4 +41,8 @@
 
 .form-info-container {
   color: #4d515c;
+}
+
+.form-info-container h3 {
+  font-size: 25px;
 }

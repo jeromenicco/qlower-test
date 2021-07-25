@@ -89,5 +89,11 @@
   padding: 1px 20px;
   border-radius: 5px;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.modify-button:hover {
+  background: #F8F8FD;
 }
 
