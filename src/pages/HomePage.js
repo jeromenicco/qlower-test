@@ -33,7 +33,7 @@ const HomePage = () => {
       <div className='my-simulations-container' >
         <p className='title-simulations'>Mes simulations</p>
         <div className='simu-card-container'>
-          <PropertyCard title='Mes simulations' />
+          <PropertyCard title='T3 vide Qlower' />
         </div>
       </div>
       {

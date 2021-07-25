@@ -3,10 +3,10 @@ import NotificationsIcon from '@material-ui/icons/Notifications'
 import EditIcon from '@material-ui/icons/Edit'
 import './PropertyCard.css'
 
-const PropertyCard = ({ title}) => {
+const PropertyCard = ({ title }) => {
   return (
     <div className='card-container'>
-      <div className={ title === 'Mes simulations' ? 'img-simu-container' : 'img-container' } />
+      <div className={ title === 'T3 vide Qlower' ? 'img-simu-container' : 'img-container' } />
       <div className='infos-container'>
         <p className='card-title'>{title}</p>
         <div className='icons-modify-container'>

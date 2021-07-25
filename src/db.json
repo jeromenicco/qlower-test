@@ -26,6 +26,24 @@
       "additionalAddress": "",
       "zip": "75018",
       "city": "Paris"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "8IxrUOW"
+    },
+    {
+      "type": "Appartement",
+      "name": "8 avenue du gouverneur general binger",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "mscZNRo"
     }
   ]
 }
