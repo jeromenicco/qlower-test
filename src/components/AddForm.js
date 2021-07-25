@@ -35,11 +35,11 @@ const AddForm = () => {
 
   const addProperty = (e) => {
     e.preventDefault()
-    history.push('/')
     if (value) {
       dispatch(propertiesReducer({ value }))
       postProperties(value)
     }
+    history.push('/')
   }
 
   return (

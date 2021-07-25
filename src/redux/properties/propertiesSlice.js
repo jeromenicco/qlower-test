@@ -9,11 +9,8 @@ export const getProperties = createAsyncThunk('properties/getProperties', async 
 })
 
 export const postProperties = ( data ) => {
-  axios.post('http://localhost:3001/properties', data, {
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  })
+  axios.post('http://localhost:3001/properties', data
+    )
 }
 
 const initialState = properties
@@ -23,7 +20,6 @@ const propertiesSlice = createSlice({
   initialState,
   reducers: {
     propertiesReducer(state, action) {
-      console.log('', action)
       state.push(action.payload.value)
     }
   }

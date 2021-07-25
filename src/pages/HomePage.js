@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
       </div>
       {
-        propertiesList.slice(0).reverse().map((item, index) => {
+        [...propertiesList].reverse().map((item, index) => {
           return (
             <div key={index}>
               <PropertyCard title={item.name} item={item} propertiesList={propertiesList} />
