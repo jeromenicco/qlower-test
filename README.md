@@ -5,6 +5,7 @@ For the test I've used the following packages:
   - redux
   - axios
   - server-JSON
+  - react-router-dom
    
 
 ## Available Scripts
