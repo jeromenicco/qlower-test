@@ -6,7 +6,7 @@ import './AddPropertyPage.css'
 const AddPropertyPage = () => {
   return (
     <div className='property-page-container'>
-      <div>
+      <div className='form-info-container'>
         <h3>Détailler une propriété</h3>
         <p>Renseignez votre bien en 5 minutes avec les doculents suivants</p>
         <ul>

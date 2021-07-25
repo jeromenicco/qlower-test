@@ -8,6 +8,7 @@
   margin: auto 30%;
   padding: 20px;
   border-radius: 15px;
+  color: rgb(8, 18, 68);
   box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 34px -17px rgba(0,0,0,0.75);
@@ -82,4 +83,6 @@
 
 .title-simulations {
   padding: 5px 20px;
+  color: rgb(8, 18, 68);
+  font-size: 18px;
 }
