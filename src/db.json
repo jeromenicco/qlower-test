@@ -26,6 +26,15 @@
       "additionalAddress": "",
       "zip": "75018",
       "city": "Paris"
+    },
+    {
+      "type": "Appartement",
+      "name": "166 Local",
+      "address": "a",
+      "additionalAddress": "z",
+      "zip": "94100",
+      "city": "ST MAUR DES FOSSES",
+      "id": "JKk-v4R"
     }
   ]
 }
